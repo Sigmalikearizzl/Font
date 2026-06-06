@@ -1,0 +1,36 @@
+{
+  "name": "LiminalAsylum",
+  "version": "0.1.0",
+  "description": "Original FPS survival-horror game inspired by liminal space aesthetics",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "build": "webpack --mode production",
+    "start": "node build/server.js",
+    "test": "jest",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "game",
+    "horror",
+    "survival",
+    "fps",
+    "liminal"
+  ],
+  "author": "Sigmalikearizzl",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "three": "^r128",
+    "cannon-es": "^0.20.0",
+    "howler": "^2.2.4"
+  }
+}
